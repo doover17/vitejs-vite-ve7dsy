@@ -1,0 +1,45 @@
+.character-builder {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.builder-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.builder-header h1 {
+  margin: 0;
+}
+
+.builder-header nav {
+  display: flex;
+  gap: 10px;
+}
+
+.builder-header button {
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.builder-header button:hover {
+  background-color: #e0e0e0;
+}
+
+.builder-header button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.builder-content {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+}
